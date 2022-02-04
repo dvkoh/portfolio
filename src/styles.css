@@ -1,0 +1,210 @@
+:root {
+  --main-color: rgb(255, 0, 150);
+  --grid-width: 25vw - 23.8px;
+  --wf-width: 33.3vw - 26.7px;
+  --wf-height: 18.5vw - 14.8px;
+  --invert-state: 1;
+}
+
+html {
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: -0.1px;
+  font-size: 18px;
+  cursor: default;
+  filter: invert(var(--invert-state));
+}
+img {
+  filter: invert(var(--invert-state));
+  box-shadow: 0px 3px 10px rgba(180,180,180,0.2);
+}
+body {
+  overflow-x: hidden;
+  padding: 0px;
+  margin: 0px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+footer {
+  font-size: 13px;
+  margin: 130px 0px 20px 25px;
+  color: rgb(46, 46, 46);
+}
+.footbox{
+  position: absolute;
+  top: 0;
+  width:100vw; 
+  height: calc(800px); 
+  background-color:none;
+  z-index: 0
+}
+a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+a:hover {
+  text-decoration: underline;
+}
+.grayscale {
+  filter: grayscale();
+  transition: 0.3s;
+}
+.bold {
+  font-weight: 400;
+  letter-spacing: 0.6px;
+}
+.none {
+  display: none;
+}
+.transition {
+  transition: 0.3s;
+}
+.invisible {
+  color: rgba(0, 0, 0, 0);
+}
+.opacity {
+  opacity: 0.4;
+  transition: 0.2s;
+}
+.me .p {
+  position: absolute;
+  color: black;
+  top: -70px;
+  left: 25px;
+}
+.me .space {
+  margin-left: 20px;
+}
+.me a {
+  position: absolute;
+  left: 950px;
+  top: -70px;
+  width: 200px;
+  font-weight: 400;
+  color: black;
+}
+/* head */
+.left-head {
+  margin-left: calc(25px);
+  position: absolute;
+  z-index: 4;
+}
+.mid-head {
+  font-size: 15px;
+  margin-top: 54px;
+  left: calc(25px);
+  z-index: 20;
+  color: black;
+}
+.nonstick {
+  position: absolute;
+  top: calc(100vh - 75px);
+  z-index: 11;
+}
+.stick {
+  position: fixed;
+  top: -48px;
+}
+.mid-head :hover {
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+/* modebutton */
+.view {
+  color: black;
+  margin-left: 25px;
+  line-height: 17px;
+  width: 1000px;
+}
+.nonstick2 {
+  position: absolute;
+  top: calc(100vh - 44px);
+}
+.stick2 {
+  position: fixed;
+  top: -18px;
+}
+.selection-button :hover {
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+.selection-button span {
+  cursor: pointer;
+  color: rgb(190, 190, 190);
+}
+.selection-button .on {
+  color: var(--main-color);
+}
+
+/* projects thumbnail */
+.thumbnail {
+  position: absolute;
+  top: calc(100vh - 20px + 125px);
+}
+
+/* waterfall */
+.wf img {
+  width: calc(27vw);
+}
+.wf :hover {
+  opacity: 0.6;
+  transition: 0.2s;
+  text-decoration: none;
+}
+
+/* list */
+.list-thumbnail {
+  margin-left: 25px;
+  line-height: 25px;
+  color: black;
+}
+.jump {
+  margin-top: 40px;
+}
+.op {
+  opacity: 0;
+}
+/* gallery */
+/* img */
+.gallery-img-thumbnail img {
+  object-fit: cover;
+  object-position: 50% 50%;
+  min-width: 70vw;
+  height: calc(40vw - 100px);
+  margin-left: 15vw;
+  cursor: e-resize;
+  margin-bottom: 75px;
+}
+.gal-img-2 {
+  opacity: 0.2;
+  filter: grayscale(100%);
+}
+.GLimg {
+  color: black;
+  margin-left: 15vw;
+  line-height: 10px;
+}
+/* gallery */
+/* text */
+.gallery-thumbnail p {
+  color: black;
+  font-size: 18px;
+  line-height: 27px;
+}
+.gallery-thumbnail .text1 {
+  font-weight: 400;
+  margin-left: 15vw;
+}
+.gallery-thumbnail .text2 {
+  margin-left: calc(150px);
+}
+.gallery-thumbnail .text3 {
+  margin-left: 60px;
+  text-align: right;
+}

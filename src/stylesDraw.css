@@ -1,0 +1,16 @@
+.me-draw svg {
+  left: calc(50vw - 607px);
+  top: calc(50vh - 373px);
+}
+.me-draw p {
+  position: absolute;
+  z-index: 11;
+  color: white;
+  font-size: 12px;
+  margin-left: calc(50vw - 445px + 88px);
+}
+
+svg {
+  position: absolute;
+  z-index: 10;
+}

@@ -1,0 +1,94 @@
+.left-headM {
+  margin-left: 20px;
+  position: absolute;
+  top: 50px;
+  z-index: 2;
+}
+.mid-headM {
+  position: absolute;
+  top: 270px;
+  left: 20px;
+  z-index: 2;
+  line-height: 11px;
+}
+.right-headM {
+  position: absolute;
+  top: 264px;
+  left: 60vw;
+  z-index: 2;
+}
+/* projects thumbnail */
+.thumbnailM {
+  position: absolute;
+  top: 540px;
+}
+/* me */
+.meM p {
+  position: absolute;
+  left: 30px;
+  font-size: 16px;
+  line-height: 28px;
+  width: 80vw;
+}
+.meM a {
+  /* margin-left: 60vw;  */
+  font-size: 30px;
+  line-height: 100px;
+  font-weight: 400;
+}
+.footM footer {
+  font-size: 12px;
+  margin: 60px 0px 20px 20px;
+  color: rgb(116, 116, 116);
+}
+.meM .footM footer {
+  font-size: 12px;
+  margin: 60px 0px 20px 0px;
+  color: rgb(116, 116, 116);
+}
+.arrowM {
+  font-size: 100px;
+  position: absolute;
+  top: 420px;
+  left: 10px;
+}
+/* row */
+.row-thumbnailM img {
+  width: 83vw;
+  height: 30vw;
+  margin-left: 20px;
+}
+.row-thumbnailM .text {
+  margin-top: -3px;
+  margin-bottom: -10px;
+  padding-left: 25px;
+  width: calc(83vw + 20px);
+  font-size: 13px;
+  line-height: 12px;
+}
+.row-thumbnailM .title {
+  line-height: 24px;
+}
+.row-thumbnailM .stitle {
+  font-size: 12px;
+  line-height: 24px;
+}
+.row-thumbnailM .ar {
+  font-size: 30px;
+  line-height: 24px;
+}
+.row-thumbnailM .context {
+  margin-top: 13px;
+  margin-left: 40px;
+  width: 45vw;
+  line-height: 24px;
+  /* margin-bottom: -30px; */
+}
+.row-thumbnailM .textM {
+  margin-top: -200px;
+  margin-bottom: 180px;
+  padding-left: 25px;
+  width: calc(83vw + 20px);
+  font-size: 13px;
+  line-height: 12px;
+}
