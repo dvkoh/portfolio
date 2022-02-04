@@ -47,8 +47,9 @@ class Dots extends Component {
             position: "absolute",
             zIndex: 100,
             left: "calc(50vw - 607px + 120px + " + this.props.x * .8 + "px)",
-            top: "calc(50vh - 373px  + 80px - 35px + " + this.props.y * .8 + "px)",
-            fontSize: "calc(2vw + 4px)"
+            top: "calc(50vh - 373px  + 80px - 10px - 2vw + " + this.props.y * .8 + "px)",
+            fontSize: "calc(2vw + 4px)",
+            width:"1000px"
           }}
         >
           {this.props.title} <span>(20{this.props.year})</span>
