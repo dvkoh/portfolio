@@ -39,7 +39,7 @@ footer {
   position: absolute;
   top: 0;
   width:100vw; 
-  height: calc(800px); 
+  height: calc(900px); 
   background-color:none;
   z-index: 0
 }
@@ -81,14 +81,15 @@ a:hover {
 .me .space {
   margin-left: 20px;
 }
-.me a {
+/* .me a {
   position: absolute;
   left: 1050px;
   top: -70px;
   width: 200px;
   font-weight: 400;
   color: black;
-}
+} */
+
 /* head */
 .left-head {
   margin-left: calc(25px);

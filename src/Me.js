@@ -15,24 +15,24 @@ class Me extends Component {
         </div>
         <div className="p" style={{marginTop:'280px', width:'660px'}}>
           <span style={{fontSize:'18px', lineHeight:'31px', opacity:'.8'}}>{nl2br(this.props.context2)}</span>
-        </div>
-        <div style={{ fontSize: "22px"}}>
-          <a
+          <br/>+ <a
             target="_blank"
             rel="noopener noreferrer"
             href={'https://drive.google.com/file/d/1zhedhmB03I3JURGPRHncx8noEPUw-Zbd/view?usp=sharing'}
-            style={{ marginTop: "75px"}}
+            style={{ fontSize: "22px", marginTop: "75px", color:'rgb(255, 0, 150)', lineHeight:'31px'}}
             >
-            CV →
-          </a>
-          <a
+            CV
+          </a><br/>+ <a
             target="_blank"
             rel="noopener noreferrer"
             href={'https://drive.google.com/file/d/1GWxNvmv2PtKaTQKJegm8qBbdNAZGiqmk/view?usp=sharing'}
-            style={{ marginTop: "110px" }}
+            style={{ fontSize: "22px", marginTop: "110px", color:'rgb(255, 0, 150)', lineHeight:'31px'}}
             >
-            portfolio →
+            portfolio
           </a>
+        </div>
+        <div style={{ fontSize: "18px"}}>
+          
           {/* <a
             target="_blank"
             rel="noopener noreferrer"
