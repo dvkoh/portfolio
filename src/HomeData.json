@@ -313,8 +313,8 @@
         "year": 21,
         "month": 11,
         "imgurl": "https://i.ibb.co/9yNnhyt/0-copy.png",
-        "imgurl2": "https://i.ibb.co/5GHqwSt/2.png",
-        "imgurl3": "https://i.ibb.co/9bKngWv/image.png",
+        "imgurl2": "https://i.ibb.co/19xwrK5/Untitled-copy.png",
+        "imgurl3": "https://i.ibb.co/drmrM5g/Untitled-copy-2.png",
         "context": "A location based social media concept that builds on the current Naver map resources. This concept stems from the Gen Z users' need for 'fresh' information and the limitations in addressing this need through user reviews.",
         "kw": "Service Design, Mobile UI",
         "at": "Seongnam, Korea",
@@ -332,7 +332,7 @@
         "month": 11,
         "imgurl": "https://i.ibb.co/V9NRLKT/sl0.png",
         "imgurl2": "https://i.ibb.co/8cfxs5x/sl1.png",
-        "imgurl3": "https://i.ibb.co/vHcD2k1/image.png",
+        "imgurl3": "https://i.ibb.co/ZK9tvzX/Untitled-copy-3.png",
         "context": "UI features to better address user needs based on the three identified usage patterns--communicating, searching and exploring.",
         "kw": "Mobile UI, Application Redesign",
         "at": "Seongnam, Korea",
@@ -364,7 +364,7 @@
         "title": "Naver Map - Redesign",
         "year": 21,
         "month": 9,
-        "imgurl": "https://i.ibb.co/7v5PYtY/2-03.png",
+        "imgurl": "https://i.ibb.co/2hxhY4x/Untitled-copy-4.png",
         "imgurl2": "https://i.ibb.co/jf2jWYX/2-04.png",
         "imgurl3": "https://i.ibb.co/5hv59WN/2-07.png",
         "context": "Identified common user propensity to engage with other applications during their trips and proposed notification interactions for when the map application is in the background state.",
@@ -381,9 +381,9 @@
         "title": "Conversations for Curiosity",
         "year": 21,
         "month": 6,
-        "imgurl": "https://i.ibb.co/k3fKNPr/a4-trifold-brochure-mockup-01.png",
-        "imgurl2": "https://i.ibb.co/yY0TCRY/gfigif.gif",
-        "imgurl3": "x",
+        "imgurl": "https://i.ibb.co/7nMsjgQ/Untitled-copy-7.png",
+        "imgurl2": "https://i.ibb.co/rZTXJJd/2.png",
+        "imgurl3": "https://i.ibb.co/Yt4qYwp/image.png",
         "context": "This thesis explores the opportunities that social curiosity holds in supporting user discovery with conversational interfaces.",
         "kw": "Design Research, UX Research, Conversational Agent",
         "at": "Daejeon, Korea",
@@ -424,7 +424,8 @@
         "at": "Seoul, Korea",
         "x": 266,
         "y": 239,
-        "port": 1
+        "port": 1,
+        "undefined": "https://i.ibb.co/VNb4dxM/Untitled-copy.png"
     },
     {
         "id": 27,
@@ -441,7 +442,8 @@
         "at": "Seoul, Korea",
         "x": 284,
         "y": 221,
-        "port": 1
+        "port": 1,
+        "undefined": "https://i.ibb.co/cQcHK1M/Untitled-copy-2.png"
     },
     {
         "id": 28,
@@ -458,7 +460,8 @@
         "at": "Daejeon, Korea",
         "x": 55,
         "y": 378,
-        "port": 1
+        "port": 1,
+        "undefined": "https://i.ibb.co/3NQqvG6/Untitled-copy-3.png"
     },
     {
         "id": 29,
@@ -475,7 +478,8 @@
         "at": "Seoul, Korea",
         "x": 204,
         "y": 408,
-        "port": 1
+        "port": 1,
+        "undefined": "https://i.ibb.co/5Yw2Cxd/Untitled-copy-4.png"
     },
     {
         "id": 30,
@@ -492,7 +496,8 @@
         "at": "Seoul, Korea",
         "x": 234,
         "y": 408,
-        "port": 1
+        "port": 1,
+        "undefined": "https://i.ibb.co/W6kz97Z/Untitled-copy-5.png"
     },
     {
         "id": 31,
@@ -509,7 +514,8 @@
         "at": "Daejeon, Korea",
         "x": 420,
         "y": 288,
-        "port": 1
+        "port": 1,
+        "undefined": "https://i.ibb.co/cQCd6cR/Untitled-copy-6.png"
     },
     {
         "id": 32,
@@ -526,7 +532,8 @@
         "at": "Daejeon, Korea",
         "x": 420,
         "y": 308,
-        "port": 0
+        "port": 0,
+        "undefined": "https://i.ibb.co/zmRQ6kP/Untitled-copy-7.png"
     },
     {
         "id": 33,
