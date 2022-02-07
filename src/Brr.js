@@ -25,7 +25,7 @@ class Brr extends Component {
     this.handleScroll = this.handleScroll.bind(this);
     this.state = {
       show: "justhome",
-      mode: "",
+      mode: "me",
       select: "all",
       display: "gallery",
       top: true,

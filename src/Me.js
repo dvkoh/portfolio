@@ -13,39 +13,47 @@ class Me extends Component {
         <div className="p" style={{width:'750px'}}>
         <span style={{fontSize:'22px', lineHeight:'35px'}}>{nl2br(this.props.context1)}</span>
         </div>
-        <div className="p" style={{marginTop:'280px', width:'700px'}}>
+        <div className="p" style={{marginTop:'280px', width:'660px'}}>
           <span style={{fontSize:'18px', lineHeight:'31px', opacity:'.8'}}>{nl2br(this.props.context2)}</span>
         </div>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href={'https://drive.google.com/file/d/1zhedhmB03I3JURGPRHncx8noEPUw-Zbd/view?usp=sharing'}
-          style={{ fontSize: "22px", marginTop: "9px"}}
-        >
-          CV ↗
-        </a>
-        <div style={{ fontSize: "18px"}}>
+        <div style={{ fontSize: "22px"}}>
           <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href={'https://drive.google.com/file/d/1zhedhmB03I3JURGPRHncx8noEPUw-Zbd/view?usp=sharing'}
+            style={{ marginTop: "75px"}}
+            >
+            CV →
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href={'https://drive.google.com/file/d/1GWxNvmv2PtKaTQKJegm8qBbdNAZGiqmk/view?usp=sharing'}
+            style={{ marginTop: "110px" }}
+            >
+            portfolio →
+          </a>
+          {/* <a
             target="_blank"
             rel="noopener noreferrer"
             href={"https://www.linkedin.com/in/dvkoh/"}
-            style={{ marginTop: "80px" }}
+            style={{ marginTop: "180px" }}
           >
             linkedIn ↗
-          </a>
-          <a
+          </a> */}
+          {/* <a
             target="_blank"
             rel="noopener noreferrer"
             href={"https://www.instagram.com/dvkoh/"}
-            style={{ marginTop: "115px" }}
+            style={{ marginTop: "180px" }}
           >
             instagram ↗
-          </a>
-          <a
+          </a> */}
+          {/* <a
             target="_blank"
             rel="noopener noreferrer"
             href={"https://dvkoh.github.io/archive/"}
-            style={{ marginTop: "150px" }}
+            style={{ marginTop: "185px" }}
           >
             archive ↗
           </a>
@@ -53,10 +61,10 @@ class Me extends Component {
             target="_blank"
             rel="noopener noreferrer"
             href={"https://dvkoh.github.io/booksbooksbooks/"}
-            style={{ marginTop: "185px" }}
+            style={{ marginTop: "220px" }}
           >
             reading list ↗
-          </a>
+          </a> */}
         </div>
       </div>
     );
