@@ -27,7 +27,7 @@ class Brr extends Component {
       show: "justhome",
       mode: "me",
       select: "all",
-      display: "gallery",
+      display: "list",
       top: true,
       stick: false,
       scroll: 0,
@@ -257,7 +257,7 @@ class Brr extends Component {
                         <a                  
                           target="_blank"
                           rel="noopener noreferrer"
-                          href={"https://www.naver.com"}
+                          href={obj.imgurl}
                         >
                           <div>
                             <Rects
@@ -577,7 +577,7 @@ class Brr extends Component {
                               <a                  
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                href={"https://www.naver.com"}
+                                href={obj.imgurl}
                                 style={{
                                   color: "rgb(255, 0, 150)"
                                 }}
